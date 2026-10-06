@@ -1,0 +1,17 @@
+# Python 虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter 检查点
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# ====== GitHub 公开版：数据不入库（许可与体积考虑） ======
+# 原始数据：it-position-info 无许可、lagou_2017 无 LICENSE，仅保留下载脚本
+data/raw/
+# 加工数据：由原始数据派生，运行 src/ 脚本即可重新生成
+data/processed/

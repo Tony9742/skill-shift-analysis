@@ -1,0 +1,25 @@
+# 数据处理核心
+pandas>=2.0
+numpy>=1.24
+
+# Notebook 环境
+jupyter>=1.0
+ipykernel>=6.25
+notebook>=7.0
+
+# 可视化
+matplotlib>=3.7
+seaborn>=0.13
+
+# 中文分词（第二阶段文本挖掘使用）
+jieba>=0.42
+
+# 统计检验与回归（卡方、OLS）
+scipy>=1.11
+statsmodels>=0.14
+
+# 读取 Excel 格式数据集
+openpyxl>=3.1
+
+# Kaggle 数据下载（令牌配置于 ~/.kaggle/access_token）
+kaggle>=2.0
